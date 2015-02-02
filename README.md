@@ -1,10 +1,10 @@
 # jsparse
 
-A Clojure library designed to ... well, that part is up to you.
+Clojure wrapper around the Mozilla Rhino javascript parser
 
 ## Usage
 
-FIXME
+(jsparse.core/parse-js (clojure.java.io/reader "somefile.js"))
 
 ## License
 
